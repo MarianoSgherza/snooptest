@@ -1,0 +1,244 @@
+a:hover{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 18px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.cabecera {
+
+   background-image: url("../img/bg-red-mobile.png");
+
+   background-size: cover;
+    height: 800px;
+    margin-bottom: -140px; 
+    
+
+}
+
+.cabecera p{
+    font-size: 12px;
+    
+}
+
+header{
+    z-index: 10;
+    height: 2em;
+}
+.cont-logo{
+    width: 2em;
+    z-index: 2;
+}
+#logo{
+
+    /*width: 2em;*/
+    height: 2em;
+}
+#logo-dk{
+    display: none;
+}
+
+.desktop-nav{
+
+    display: none;
+}
+
+.mobile-nav{
+    z-index: 2;
+    width: 2em;
+    
+}
+
+/*.hamburger{
+   /* width: 2em;
+}*/
+
+#menu{
+    display: none;
+    width: 100%;
+}
+
+#menu{
+    width: 100%;
+} 
+
+#menu ul li{
+    width: 100%;
+    
+    background-color: black;
+    
+    color:white;
+}
+
+#menu ul li a{
+
+    color: white;
+}
+
+
+.mobile-nav img{
+    z-index: 2;
+    width: 2em;
+    height: 2em;
+     
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-right: -15px;
+}
+
+.chairs-mobile{
+    position: absolute;
+    top: -2em;
+    width: 100%;
+    height: 300px;
+    
+}
+
+.chairs-desktop{
+    display: none;
+}
+
+.titular{
+position: absolute;
+bottom: -30px;
+width: 205px;
+height: 160px;
+background-color: white;
+
+}
+
+.atras, .adelante{
+    display: none;
+}
+
+.sec-carrousel{
+    position: absolute;
+    bottom: 30px;
+    /*width:100%;*/
+    /*margin-top: -100px;*/
+}
+
+/*.carrousel{
+/*width: 100%;
+}*/
+
+#titulo-carrusel{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+
+}
+
+.img-container{
+
+    overflow: hidden;
+}
+
+.producto{
+    background-color: #ff0000;
+    padding: 5px 5px 5px 5px;
+}
+
+.precio{
+
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    
+    padding: 0.25rem 0 0 0;
+
+}
+
+.img-producto{
+    border-color: white;
+    border-style: solid;
+
+}
+
+/*.prod-4, .prod-5, .prod-6{
+    display: none;
+} 
+*/
+.cel-info{
+
+    margin-top: 0px;
+    
+}
+
+.texto-desktop{
+
+    display: none;
+}
+
+.texto-mobile{
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0;
+    
+
+}
+
+.cel-foto-wrapper{
+
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0; 
+}
+
+.cel-img{
+    width: 100%;
+    margin-top: -120px;
+
+}
+
+.cel-dk{
+    display: none;
+}
+.element{
+
+  shape-outside: polygon(0 80px, 100% 200px, 0 200px);
+  width: 100%;
+  height: 200px;
+  float: left;
+  z-index: 20;
+  opacity: .2;
+  shape-margin: 50px;
+  shape-image-threshold: 0.5;
+  
+  
+}
+
+.outside-up{
+
+    shape-outside: polygon(0 0, 100% 0,100% 90px);
+    width: 100%;
+    height: 90px;
+    float: right;
+    opacity: .2;
+    
+    shape-image-threshold: 0.5;
+}
+
+.h6-dk{
+    display: none;
+}
+
+.botones{
+
+    display: none;
+    
+}
+
+
+
