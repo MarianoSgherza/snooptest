@@ -27,7 +27,7 @@ $(document).ready(function () {
     });
 
     $(".hamburger").click(function () {
-        $("#menu").slideToggle(300);
+        $(".links-wrapper").slideToggle(200);
     })
     
 })
