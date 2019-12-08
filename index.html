@@ -19,57 +19,57 @@
 
 <body>
     
-    <header class=''>
+    <header>
 
-        <!--div class=""-->
+        <div class="cont-logo">
 
-            <div class="cont-logo">
-
-                <img id="logo" src="img/sn-logo.png" alt="Logo">
-                <img id="logo-dk" src="img\sn-logo-desktop.png" alt="Logo">
-            
-            </div>
+            <img id="logo" src="img/sn-logo.png" alt="Logo">
+            <img id="logo-dk" src="img\sn-logo-desktop.png" alt="Logo">
         
-            <nav class="top-nav">
+        </div>
+        
+        <nav class="top-nav">
 
-                <div class="hamburger">
+            <div class="hamburger">
 
-                    <img class="" src="img/ham-mobile.png" alt="menu">
+                <img class="" src="img/ham-mobile.png" alt="menu">
 
-                </div>
+            </div>
+            
+            <div class="links-wrapper">
+
+                <ul id="menu" class="nav flex-column flex-sm-row">
                 
-                <div class="links-wrapper">
+                    <li class="nav-item">
+                    
+                        <a class="nav-link" href="">Home</a>
+                    
+                    </li>
+                
+                    <li class="nav-item">
+                    
+                        <a class="nav-link" href="">Quiénes somos</a>
+                    
+                    </li>
+                
+                    <li class="nav-item">
+                    
+                        <a class="nav-link" href="">Nuestros productos</a>
+                    
+                    </li>
+                
+                    <li class="nav-item">
+                    
+                        <a class="nav-link" href="">Contacto</a>
+                    
+                    </li>
+                
+                </ul>
 
-                    <ul id="menu" class="nav flex-column flex-sm-row">
-                    
-                        <li class="nav-item">
-                        
-                            <a class="nav-link" href="">Home</a>
-                        
-                        </li>
-                    
-                        <li class="nav-item">
-                        
-                            <a class="nav-link" href="">Quiénes somos</a>
-                        
-                        </li>
-                    
-                        <li class="nav-item">
-                        
-                            <a class="nav-link" href="">Nuestros productos</a>
-                        
-                        </li>
-                    
-                        <li class="nav-item">
-                        
-                            <a class="nav-link" href="">Contacto</a>
-                        
-                        </li>
-                    
-                    </ul>
-                </div>
-            </nav>
-        <!--/div-->
+            </div>
+
+        </nav>
+        
     </header>
 
     <main>
@@ -78,15 +78,19 @@
 
             <div class="row">
                
-                <div class="cabecera">
+                <div class="cabecera" id="cabecera">
                 
                     <section class="banner-wrapper">
                     
                         <div class="banner d-flex flex-column flex-sm-row-reverse">
                         
                            <img class="chairs-mobile" src="img\chairs-company-desk-mobile.png" alt="">
-                           <img class="chairs-desktop" src="img\chairs-company-desktop.png" alt="">
-                           <div class="card titular">
+                           <div class="chairs-desktop">
+
+                               <img class="chairs-desktop-img" src="img\chairs-company-desktop.png" alt="">
+                                <div id="chairs-desktop-after"></div>
+                            </div>
+                            <div class="card titular">
                                <div class="card-body">
                                     <h1>LOREM IPSUM</h1>
                                     <h2>Cras egestas risus sit amet</h2>
@@ -100,106 +104,283 @@
                     
                     <section class="sec-carrousel container-fluid">
                     
-                        <h2 class="pl-3" id="titulo-carrusel">Nulla sed urna justo</h2>
-                        <!--div class="carrousel container-fluid"-->
-                            <div class="crsl-container row" id="po">
+                        <h2 class="" id="titulo-carrusel">Nulla sed urna justo</h2>
+                    
+                        <div class="crsl-container row" id="po">
                                 
-                                <div class="img-container d-flex flex-row flex-nowrap flex-sm-wrap col-12 col-sm-10" id="fotos-carrusel">
+                            <div class="img-container col-12 col-sm-10" id="fotos-carrusel">
 
-                                    <div class="crsl crsl1 col-11 col-sm-4 d-flex flex-row">
+                                <div class="items-wrapper d-flex flex-row flex-nowrap overflow-hidden" id="items-wrapper">
 
-                                        
-                                        <div class="producto prod-1 card col-6">
-                                                
-                                            <div class="img-producto">
-                                                <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                    <div class="sliding d-flex flex-row no-wrap overflow-hidden" id="slide1">
+
+                                    
+                                        <div class="crsl crsl1 col-4 d-flex flex-row">
+
+
+                                            <div class="producto prod-1 card col-6">
+
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 71</p>
+
+                                                </div>
                                             </div>
-                                            <div class="precio card-body">
-                                                <p class="card-title">$ 71</p>
-                                                
+
+
+                                            <div class="producto prod-2 card col-6">
+
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 72</p>
+
+                                                </div>
                                             </div>
+
                                         </div>
-                                        
-                                        
-                                        
-                                        <div class="producto prod-2 card col-6">
+
+                                        <div class="crsl crsl2 col-4 d-flex flex-row">
+
+
+                                            <div class="producto prod-3 card col-6">
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 73</p>
+                                                
+                                                </div>
+                                            </div>
+
+
+                                            <div class="producto prod-4 card col-6">
+
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 74</p>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="crsl crsl3 col-4 d-flex flex-row">
+
+                                                                                
+                                            <div class="producto prod-5 card col-6">
                                             
-                                            <div class="img-producto">
-                                                <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
-                                            </div>
-                                            <div class="precio card-body">
-                                                <p class="card-title">$ 72</p>
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 75</p>
                                                 
+                                                </div>
                                             </div>
-                                        </div>
                                         
+                                            <div class="producto prod-6 card col-6">
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 76</p>
+                                                
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+                                            
                                     </div>
 
-                                    <div class="crsl crsl2 col-11 col-sm-4 d-flex flex-row">
+                                    <div class="sliding d-flex flex-row no-wrap overflow-hidden" id="slide2">
+
+                                    
+                                        <div class="crsl crsl1 col-4 d-flex flex-row">
 
                                         
-                                        
-                                        <div class="producto prod-3 card col-6">
-                                            <div class="img-producto">
-                                                <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
-                                            </div>
-                                            <div class="precio card-body">
-                                                <p class="card-title">$ 73</p>
-                                            
-                                            </div>
-                                        </div>
-                                        
-                                        
-                                        
-                                        <div class="producto prod-4 card col-6">
-                                            
-                                            <div class="img-producto">
-                                                <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
-                                            </div>
-                                            <div class="precio card-body">
-                                                <p class="card-title">$ 74</p>
+                                            <div class="producto prod-1 card col-6">
                                                 
-                                            </div>
-                                        </div>
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 81</p>
                                                 
+                                                </div>
+                                            </div>
+                                        
+                                        
+                                            <div class="producto prod-2 card col-6">
+                                            
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 82</p>
+                                                
+                                                </div>
+                                            </div>
+                                        
+                                        </div>
+
+                                        <div class="crsl crsl2 col-4 d-flex flex-row">
+
+
+                                            <div class="producto prod-3 card col-6">
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 83</p>
+                                                
+                                                </div>
+                                            </div>
+
+
+                                            <div class="producto prod-4 card col-6">
+
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 84</p>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="crsl crsl3 col-4 d-flex flex-row">
+
+
+                                            <div class="producto prod-5 card col-6">
+
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 85</p>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="producto prod-6 card col-6">
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 86</p>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                            
                                     </div>
 
-                                    <div class="crsl crsl3 col-11 col-sm-4 d-flex flex-row">
+                                    <div class="sliding d-flex flex-row no-wrap overflow-hidden" id="slide3">
 
-                                        
-                                        
-                                        <div class="producto prod-5 card col-6">
-                                            
-                                            <div class="img-producto">
-                                                <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+
+                                        <div class="crsl crsl1 col-4 d-flex flex-row">
+
+
+                                            <div class="producto prod-1 card col-6">
+
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 91</p>
+
+                                                </div>
                                             </div>
-                                            <div class="precio card-body">
-                                                <p class="card-title">$ 75</p>
-                                                
+
+
+
+                                            <div class="producto prod-2 card col-6">
+
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 92</p>
+
+                                                </div>
                                             </div>
+
                                         </div>
-                                        
-                                        <div class="producto prod-6 card col-6">
-                                            <div class="img-producto">
-                                                <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
-                                            </div>
-                                            <div class="precio card-body">
-                                                <p class="card-title">$ 76</p>
+
+                                        <div class="crsl crsl2 col-4 d-flex flex-row">
+
+
+
+                                            <div class="producto prod-3 card col-6">
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 93</p>
                                                 
+                                                </div>
                                             </div>
+
+
+
+                                            <div class="producto prod-4 card col-6">
+
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 94</p>
+
+                                                </div>
+                                            </div>
+
                                         </div>
-                                        
+
+                                        <div class="crsl crsl3 col-4 d-flex flex-row">
+
+
+
+                                            <div class="producto prod-5 card col-6">
+
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 95</p>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="producto prod-6 card col-6">
+                                                <div class="img-producto">
+                                                    <img class="card-img-top" src="img\art-cappucino.png" alt="" srcset="">
+                                                </div>
+                                                <div class="precio card-body">
+                                                    <p class="card-title">$ 96</p>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
                                     </div>
-                                            
-                                </div>
-
-                                <div class="flecha adelante col-sm">
-                                    <span class="signo">&#62</span>
-                                </div>
-
+                                </div>    
                             </div>
 
-                        <!--/div-->
+                            <div class="flecha adelante col-sm" id="adelante">
+                                <span class="signo">&#62</span>
+                            </div>
+
+                        </div>
                     
                     </section>
                 
@@ -210,15 +391,14 @@
 
                     <div class="botones">
 
-                        <div>&#8226</div>
-                        <div>&#8226</div>
-                        <div>&#8226</div>
+                        <div class=""><span id= "rojo" class="rojo">&#8226</span></div>
+                        <div class=""><span id= "azul" class="azul">&#8226</span></div>
+                        <div class=""><span id= "verde" class="verde">&#8226</span></div>
                         
                     </div>
 
                 </div>
 
-            
             </div>
         
             
@@ -230,9 +410,9 @@
                 
                 <div class="cel-text">
 
-                    <h6 class="cel-title px-1">Pellentesque luctus</h6>
+                    <h6 class="cel-title">Pellentesque luctus</h6>
 
-                    <p class="p-mov px-1">Purus sed laoret placerat.</br> Vivamus ac ligula sapien. Proin pulvinar vitae risus sit amet consequat.<br>       Praesant fascilis mi a rhoncus viverra.</p>
+                    <p class="p-mov">Purus sed laoret placerat.</br> Vivamus ac ligula sapien. Proin pulvinar vitae risus sit amet consequat.<br>Praesant fascilis mi a rhoncus viverra.</p>
 
                     <p class="p-dk">Purus sed laoret placerat. Vivamus ac ligula sapien. Proin pulvinar vitae risus sit amet consequat. Praesant    fascilis mi a rhoncus viverra quis varius justo purus ut odio. Praesant feugiat risus arcu, nec congue nisl laoreet quis. Morbi pretium  magna ut elit sodales vehicula. Aliquam luctus pulvinar ligula, id ultrices lectus aliquet lobortis. Ut molestie eu massa nec eleifend. Vivamus aliquam nec urna nec commodo. Vivamus scelerisque semper rhoncus. Etiam vel interdum erat. Mauris semper risus vitae diam congue, non ullamcorper eros dictum.</p>
 

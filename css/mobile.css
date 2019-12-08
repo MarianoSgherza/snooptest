@@ -23,10 +23,9 @@ h2{
     clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 89%);
    /* shape-outside: polygon(0 0, 100% 0, 100% 100%, 0% 85%);
     float: right;
-    z-index: 20;
     shape-margin: 20px;*/
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 25%;
 
 }
 
@@ -36,9 +35,9 @@ header{
     height: 3em;  
     display: flex;
     justify-content: space-between;  
-    padding-top: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
     margin-bottom: -3em;
 
 }
@@ -102,7 +101,7 @@ header{
 #menu li{
 
   /*  width: 100%;*/    
-    background-color: black;    
+    background-color: rgba(0, 0, 0, 0.8);
     color:white;
 
 }
@@ -116,23 +115,13 @@ header{
 
 }
 
-/*main{
-
-    margin-top: -5em;
-
-}*/
-
 /*.banner-wrapper{
-
-    /*width: 100%;
 
 }*/
 
 .banner{
 
     width: 100%;
-    /*height: 300px;
-    /*margin-right: -15px;*/
 
 }
 
@@ -141,7 +130,6 @@ header{
     /*position: absolute;*/
     /*top: -2em;*/
     width: 100%;
-    /*height: 300px;*/
     opacity: 0.5;
     
 }
@@ -154,7 +142,7 @@ header{
 
 .titular{
 
-    /*position: absolute;*/
+    margin-left: 5px;
     margin-top: -120px;
     width: 205px;
     height: 160px;
@@ -191,13 +179,14 @@ header{
     color:white;
     font-family: 'Oswald', sans-serif;
     font-weight: 900;
+    margin-left: 0px;
 
 }
 
 .img-container{
 
     overflow: hidden;
-    /*padding-right: 0;*/
+    padding: 0;
 
 }
 
@@ -208,10 +197,29 @@ header{
 
 }
 
+#items-wrapper{
+
+    width: 1800%;
+    position: relative;
+    left: -270%;
+
+}
+
+.sliding{
+
+    width: 15%;
+    
+}
+
+#items-wrapper.shifting {
+        
+    transition: left .2s ease-out;
+    
+}
+
 .producto{
 
-    /*width: 45vw;*/
-    background-color: #ff0000;
+    background-color: transparent;
     padding-left: 5px;
     padding-right: 5px;
     border: 0;
@@ -241,19 +249,20 @@ header{
 
 }*/
 
-.texto-mobile{
+.texto-cel{
     
-    height: 120px;
-    width: 100%;
-    
+    margin-top: -36px;
+        
 }
 
 .p-mov{
 
-    font-size: calc(0.6vw + 12px);
+    font-size: calc(0.7vw + 13.6px);
     font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
     margin-bottom: 0;
-    /*text-align: center;*/
+    /*padding-left: 0.1%;*/
+    line-height: 1.18;
 
 }
 
@@ -268,14 +277,10 @@ header{
 
     width: 100%;
     margin-top: -50px;
-  /*  shape-outside: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
-    float: left;                
-    z-index: 20;
-    shape-margin: 20px;*/
 
 }
 
-.cel-dk{
+.cel-dk, .p-dk{
 
     display: none;
 
@@ -283,24 +288,22 @@ header{
 
 .element{
 
-    shape-outside: polygon( 0 10%, 100% 10%, 100% 53%);
-    -webkit-shape-outside: polygon( 0 10%, 100% 10%, 100% 53%);
-    clip-path: polygon(0 10%, 100% 10%, 100% 53%);
+    shape-outside: polygon( 0 0, 100% 0, 100% 60%);
+    -webkit-shape-outside: polygon( 0 0, 100% 0, 100% 60%);
     width: 50%;
-    height: 110px;
+    height: 80px;
     float: right;
-    shape-margin: 2%;
+    shape-margin: 2.5%;
     
 }
 
 .outside-up{
 
-    -webkit-shape-outside: polygon(0 63%, 100% 100%, 0 100%);
-    shape-outside: polygon(0 63%, 100% 100%, 0 100%);
-    clip-path: polygon(0 63%, 100% 100%, 0 100%);
+    -webkit-shape-outside: polygon(0 64%, 100% 100%, 0 100%);
+    shape-outside: polygon(0 64%, 100% 100%, 0 100%);
     shape-margin: 3%;
-    width: 50%;
-    height: 120px;
+    width: 48%;
+    height: 123px;
     float: left;
         
 }
@@ -308,7 +311,7 @@ header{
 .cel-title{
 
     font-family: 'Times New Roman', Times, serif;
-    font-size: calc(0.6vw + 12px);
+    font-size: calc(0.7vw + 14.9px);
     font-weight: 700;
     font-style: italic;
 
@@ -318,12 +321,6 @@ header{
 
     display: none;
     
-}
-
-.p-dk{
-
-    display: none;
-
 }
 
 
